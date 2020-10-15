@@ -37,10 +37,6 @@ body{
 }
 
 /* header */
-#site_header{
-  height: 500px;
-}
-
 /* navbar */
 .navbar{
   height: 80px;
@@ -143,10 +139,43 @@ li:hover a{
 }
 /* /hero_image */
 
-#site_main{
-
+/* main */
+/* /grey banner */
+.grey_banner{
+  text-align: center;
+  padding: 30px 0;
 }
 
+.paragraph{
+font-size: 16.5px;
+color: grey;
+line-height: 1.5em;
+}
+/* /grey banner */
+
+/* first row */
+.card{
+  width: 33.33%;
+  text-align: center;
+  padding: 0 30px 0 30px;
+}
+.card_image{
+  height: 180px;
+  margin: 45px 0px 20px 0px;
+}
+
+.card > h2{
+  color: #7CBB02;
+  font-weight: 500;
+}
+
+.hr_toprow {
+  margin: 20px 40%;
+  width: 20%;
+}
+/* /first row */
+
+/* main */
 #site_footer{
 
 }
