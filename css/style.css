@@ -38,12 +38,12 @@ body{
 
 /* header */
 #site_header{
-  height: 300px;
+  height: 500px;
 }
 
 /* navbar */
 .navbar{
-  height: 60px;
+  height: 80px;
   padding: 10px 0px;
 }
 
@@ -93,15 +93,55 @@ li a{
 li:hover a{
   text-decoration: underline;
 }
-li:hover .botton_blue{
+.botton_blue:hover{
   background-color: white;
   color: #0C325A
 }
-li:hover .botton_green{
+.botton_green:hover {
   background-color: white;
   color: #7CBB02
 }
 /* /navbar */
+
+/* hero_image */
+.hero_container{
+  background-image: url(../img/banner_header.png);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: 120% 110%;
+}
+.background_hero_image{
+  height: 420px;
+  position: relative;
+}
+/* hero_image text */
+.hero_text{
+  width: 50%;
+  color: white;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-60%);
+}
+.hero_text h1{
+  font-weight: 500;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.botton_large{
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 12px;
+  border-radius: 4px;
+  padding: 15px;
+  color: white;
+}
+/* hover on hero_image */
+.botton_large:hover{
+  background-color: white;
+  color: #7CBB02;
+  text-decoration: underline;
+}
+/* /hero_image */
 
 #site_main{
 
