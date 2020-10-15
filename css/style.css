@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+/* utility class */
+.bg_blue{
+  background-color: #0C325A;
+}
+.bg_green{
+  background-color: #7CBB02
+}
+.bg_grey{
+  background-color: #D3D3D3
+}
+
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.clearfix:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+/* /utility class */
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+/* header */
+#site_header{
+  height: 300px;
+}
+
+/* navbar */
+.navbar{
+  height: 60px;
+  padding: 10px 0px;
+}
+
+.header_logo{
+  width: 15%;
+}
+.header_menu_left{
+  width: 45%;
+}
+.header_menu_right{
+  width: 40%;
+}
+
+.menu_list{
+  line-height: 3em;
+}
+.menu_list_left{
+  text-align: right;
+}
+
+ul li{
+  display: inline-block;
+  list-style: none;
+  color: white;
+  line-height: 10px;
+  padding-left: 18px;
+}
+
+li a{
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.botton_blue{
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 5px 16px;
+}
+.botton_green{
+  border-radius: 4px;
+  padding: 5px 12px;
+}
+
+/* hover on navbar */
+li:hover a{
+  text-decoration: underline;
+}
+li:hover .botton_blue{
+  background-color: white;
+  color: #0C325A
+}
+li:hover .botton_green{
+  background-color: white;
+  color: #7CBB02
+}
+/* /navbar */
+
+#site_main{
+
+}
+
+#site_footer{
+
+}
