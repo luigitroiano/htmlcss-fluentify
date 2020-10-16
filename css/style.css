@@ -12,10 +12,10 @@ body{
   background-color: #0C325A;
 }
 .bg_green{
-  background-color: #7CBB02
+  background-color: #7CBB02;
 }
 .bg_grey{
-  background-color: #D3D3D3
+  background-color: #D3D3D3;
 }
 
 .fl{
@@ -29,12 +29,13 @@ body{
   display: table;
   clear: both;
 }
-/* /utility class */
 
 .container{
   width: 80%;
   margin: auto;
 }
+/* /utility class */
+
 
 /* header */
 /* navbar */
@@ -204,7 +205,6 @@ line-height: 1.5em;
 .banner_footer{
   height: 150px;
   position: relative;
-
 }
 .footer_row{
   width: 100%;
@@ -227,6 +227,10 @@ line-height: 1.5em;
 .mg_25{
   margin-left: 25px;
 }
+
+select:hover{
+  cursor: pointer;
+}
 /* botton fixed down */
 #help{
   position: fixed;
@@ -235,5 +239,9 @@ line-height: 1.5em;
   color: white;
   text-transform: uppercase;
   text-decoration: none;
+}
+#help:hover{
+  color: #7CBB02;
+  text-decoration: underline;
 }
 /* /footer */
